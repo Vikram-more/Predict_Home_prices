@@ -9,5 +9,6 @@ Proc SQL;
 Create table Home_data as 
 Select *
 from Data_Home
+Where SalePrice > 250000
 ;
 run;
